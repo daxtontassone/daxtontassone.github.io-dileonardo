@@ -3,22 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freshdesk Widget</title>
+    <title>Support Tickets</title>
 </head>
 <body>
-    <script>
-        window.fwSettings = {
-            'widget_id': 36000001518
-        };
-        !function() {
-            if ("function" != typeof window.FreshworksWidget) {
-                var n = function() {
-                    n.q.push(arguments)
-                };
-                n.q = [], window.FreshworksWidget = n
-            }
-        }()
-    </script>
-    <script type="text/javascript" src="https://widget.freshworks.com/widgets/36000001518.js" async defer></script>
+    <h1>Create a New Support Ticket</h1>
+    <iframe src="https://dileonardo.freshdesk.com/support/tickets/new" width="100%" height="800px" frameborder="0"></iframe>
 </body>
 </html>
